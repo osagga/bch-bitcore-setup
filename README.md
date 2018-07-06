@@ -49,7 +49,7 @@ There are two main config file that we need to take care of:
       "bitcoind": {
         "spawn": {
           "datadir": "./data", // Path to where bitcoind would sava data and load the config file.
-          "exec": ["FULL-PATH/TO/BITCOIND"] // The one you built from source
+          "exec": "FULL-PATH/TO/BITCOIND" // The one you built from source
         }
       }
     }
